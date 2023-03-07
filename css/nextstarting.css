@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+body {
+  margin: 0;
+  background: #222;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: red;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ .start {
+    position: relative;
+ }
+
+.logo {
+  float: left;
+  height: 100px;
+}
+
+.field {
+  position: absolute;
+  left: 360px;
+  width: 55%;
+  padding-top: 5px;
+}
+
+.messi {
+  position: absolute;
+  width: 10%;
+  top: 120px;
+  left: 810px;
+}
+
+.ronaldo {
+  position: absolute;
+  width: 10%;
+  top: 120px;
+  left: 553px;
+}
+
+.zidane {
+  position: absolute;
+  width: 10%;
+  top: 385px;
+  left: 680px;
+}
+
+.ramos {
+  position: absolute;
+  width: 10%;
+  top: 700px;
+  left: 553px;
+}
+
+.smalling {
+  position: absolute;
+  width: 10.5%;
+  top: 700px;
+  left: 810px;
+}
+
+.neuer {
+  position: absolute;
+  width: 10%;
+  top: 1000px;
+  left: 680px;
+}
+
+.next {
+  position: absolute;
+  width: 22%;
+  top: 100px;
+  left: 15px;
+}
+
+.messiname {
+  position: absolute;
+  width: 18%;
+  top: 180px;
+  left: 44px;
+}
+
+.ronaldoname {
+  position: absolute;
+  width: 18%;
+  top: 270px;
+  left: 44px;
+}
+
+.zidanename {
+  position: absolute;
+  width: 18%;
+  top: 330px;
+  left: 44px;
+}
+
+.ramosname {
+  position: absolute;
+  width: 18%;
+  top: 410px;
+  left: 44px;
+}
+
+.smallingname {
+  position: absolute;
+  width: 18%;
+  top: 490px;
+  left: 44px;
+}
+
+.neuername {
+  position: absolute;
+  width: 18%;
+  top: 560px;
+  left: 44px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: black;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}

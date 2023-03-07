@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+body {
+  margin: 0;
+  background: #222;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: red;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  height: 100px;
+}
+
+.welcome {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.steph {
+  position: absolute;
+  width: 30%;
+  left: 90px;
+  top: 190px;
+}
+
+.jason {
+  position: absolute;
+  width: 30%;
+  right: 90px;
+  top: 190px;
+}
+
+.lebron {
+  position: absolute;
+  width: 30%;
+  left: 500px;
+  top: 500px;
+}
+
+.henry {
+  position: absolute;
+  width: 30%;
+  left: 90px;
+  top: 850px;
+}
+
+.uriel {
+  position: absolute;
+  width: 30%;
+  right: 90px;
+  top: 850px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: black;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
